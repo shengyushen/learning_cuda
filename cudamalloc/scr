@@ -1,0 +1,3 @@
+nvprof  --unified-memory-profiling per-process-device -o unifiedmalloc.log -f ./unifiedmalloc.exe
+nvvp unifiedmalloc.log
+
